@@ -1,8 +1,10 @@
 {
   "name": "dimension",
   "version": "0.1.0",
+  "homepage": "https://emmapereira.github.io/dimension",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "1.0.11"
   },
   "dependencies": {
@@ -10,6 +12,8 @@
     "react-dom": "^15.6.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
