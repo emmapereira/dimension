@@ -5,22 +5,22 @@ export default (props) => {
  return (
 	<header id="header">
 		<div className="logo">
-			<span className="icon fa-diamond"></span>
+			<span className="icon fa-solid fa-cat"></span>
 		</div>
 		<div className="content">
 			<div className="inner">
-				<h1>Dimension</h1>
-				<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-				for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+				<h1>Emma Pereira</h1>
+				<p>Hi! Welcome to my personal website. <br></br>
+					You can find out all about me and my previous work below. <br></br>
+					Thank you for visiting!</p>
 			</div>
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#intro">Intro</a></li>
+				<li><a href="#intro">About me</a></li>
 				<li><a href="#work">Work</a></li>
-				<li><a href="#about">About</a></li>
+				<li><a href="#about">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
-			
 			</ul>
 		</nav>
 	</header>

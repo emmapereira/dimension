@@ -7,6 +7,8 @@ export default (props) => {
             <h2 className="major">{props.title}</h2>
             <span className="image main"><img src={props.img} alt={props.alt} /></span>
             <p>{props.text}</p>
+            <p>{props.text2}</p>
+            <p>{props.text3}</p>
         </article>
     )
 }

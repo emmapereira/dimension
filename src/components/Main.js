@@ -22,6 +22,8 @@ export default class Main extends Component{
                     let props = {
                         title: child.props.title, 
                         text:child.props.text, 
+                        text2:child.props.text2,
+                        text3:child.props.text3,
                         img:child.props.img,
                         alt:child.props.alt,
                         key: child.props.id
