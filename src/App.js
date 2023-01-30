@@ -50,7 +50,7 @@ class App extends Component {
 							subtitle4="GreenTrail"
 							text4="Project for a course in UX Design Prototyping where we designed, prototyped and tested an idea for a mobile application 
 								that would allow users to plan their trips in a more ecofriendly way. Designed using Figma."
-							url4="shorturl.at/bgknP"
+							url4="http://bit.ly/3j97ofi"
 							/>
 
 						<Article 
