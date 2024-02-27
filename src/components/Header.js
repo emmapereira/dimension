@@ -17,9 +17,9 @@ export default (props) => {
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#intro">About me</a></li>
+				<li><a href="#about">About me</a></li>
 				<li><a href="#work">Work</a></li>
-				<li><a href="#about">Projects</a></li>
+				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>

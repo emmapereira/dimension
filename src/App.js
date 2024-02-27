@@ -11,31 +11,36 @@ class App extends Component {
 					<Header/>
 					<Main>
 						<Article
-							id="intro" title="About me" img="images/studies.png" alt="some image01" 
+							id="about" title="About me" img="images/studies.png" alt="some image01" 
 							text="Hej! My name is Emma, and I am a software engineer based in Copenhagen. 
-								I graduated last summer from my bachelor's degree in computer science and engineering at the Polythecnic University of Catalonia, 
+								I graduated in 2022 from my Bachelor's degree in Computer Science and Engineering at the Polythecnic University of Catalonia, 
 								where I specialized in Software Engineering."
-							text2="I am currently doing my master's in Human-Centered Artificial Intelligence at the Technical University of Denmark, where I am focusing on User Experience and Cognitive Science.
+							text2="I am currently finishing my Master's of Science in Engineering in Human-Centered Artificial Intelligence at the Technical University of Denmark, where I am focusing on User Experience and Cognitive Science. I will be done with it by the end of June!
 								Outside of the Internet world, I love being outdoors, traveling, and taking pictures or videos, specially of the sunrise. ☺ "
 							/>
 
 						<Article 
 							id="work" title="Work" img="images/work.png" alt="some image02" 
-							subtitle="Student Software Developer at Venzo"
-							text="Full-stack developer working on developing a system for an external company to manage their data, using Next.js, Typescript and C#."
-							subtitle2="DevOps intern at Danfoss Drives"
-							text2="Software developer at the DevOps team at Danfoss Drives working with Agile methodologies and website development using mainly the ASP.NET framework, as well as JavaScript, html and css. 
-								Conducted my bachelor's thesis during this time."
-							subtitle3="Web intern at inLab FIB"
-							text3="Web development team at the research institute of the Informatics Faculty of Barcelona, used Drupal, php, html and css to modify and update the company's websites."
+							subtitle="AI Applications Student Assistant at Falck"
+							text="Working in the AI Applications team on different projects to automize processes within the company. Development of applications using Microsoft Power Apps and react components, focus on UX and UI."
+							subtitle2="Student Software Developer at Venzo"
+							text2="Full-stack developer working on developing a system for an external company to manage their data, using Next.js, Typescript and C#."
+							subtitle3="DevOps intern at Danfoss Drives"
+							text3="Software developer at the DevOps team at Danfoss Drives working with Agile methodologies and website development using mainly the ASP.NET framework, as well as JavaScript, html and css. 
+							Conducted my bachelor's thesis during this time."
 							/>
 						<Article 
-							id="about" title="Projects" 
-							img="images/1.png" alt="Good Near You idea" 
-							subtitle="Good Near You"
-							text="Web app to find sustainable clothing stores near the user's location or anywhere in the world. 
+							id="projects" title="Projects" 
+							img="images/wearwise.png" alt="WearWise" 
+							subtitle="WearWise"
+							text="Flutter application developed for the course Personal Data Interaction for Mobile and Wearables. The prototype allows users to create a virtual version of their closet, track their daily
+							25 clothes, and visualize in different timescales their dressing trends, with the goal of identifying forgotten clothes and fostering sustainability in fashion."
+							url="https://github.com/emmapereira/wearwise"
+							img1="images/1.png" alt1="Good Near You idea" 
+							subtitle1="Good Near You"
+							text1="Web app to find sustainable clothing stores near the user's location or anywhere in the world. 
 								Developed with the Next.js framework, using JavaScript, html and css."
-							url="https://goodnearyou.vercel.app"
+							url1="https://goodnearyou.vercel.app"
 							img2="images/offhome.png" alt2="OFF-HOME" 
 							subtitle2="OFF-HOME"
 							text2="Designed and implemented an android app to organise outdoor activities and connect with other people participating on them. 

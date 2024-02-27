@@ -9,6 +9,10 @@ export default (props) => {
             <h5>{props.subtitle}</h5>
             <p>{props.text}</p>
             <a href={props.url}>{props.url}</a>
+            <span className="image main"><img src={props.img1} alt={props.alt1} /></span>
+            <h5>{props.subtitle1}</h5>
+            <p>{props.text1}</p>
+            <a href={props.url1}>{props.url1}</a>
             <span className="image main"><img src={props.img2} alt={props.alt2} /></span>
             <h5>{props.subtitle2}</h5>
             <p>{props.text2}</p>
